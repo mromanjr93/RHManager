@@ -5,7 +5,7 @@ namespace RHManager.Infrastructure.Data.EntityConfig
 {
     /// <summary>
     /// Classe de configuração da tabela no banco de dados para Migrations, 
-    /// Usa FluidAPI
+    /// Usa Fluent API
     /// </summary>
     public class FuncionarioConfiguration : EntityTypeConfiguration<Funcionario>
     {
