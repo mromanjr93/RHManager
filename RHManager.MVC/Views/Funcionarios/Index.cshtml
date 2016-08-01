@@ -1,0 +1,58 @@
+﻿@model IEnumerable<RHManager.MVC.ViewModels.FuncionarioViewModel>
+
+@{
+    ViewBag.Title = "Cadastro de Funcionários";
+}
+
+
+<h2>Cadastro de Funcionários</h2>
+<hr />
+<p>
+    @Html.ActionLink("Novo Funcionário", "Create", null, new {@class = "btn btn-primary"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>        
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalarioBruto)
+        </th>                
+        <th>
+            Salário Líquido Base 2016
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @String.Format("{0} {1}", Html.DisplayFor(modelItem => item.Nome), Html.DisplayFor(modelItem => item.Sobrenome))
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>                
+        <td>
+            @Html.DisplayFor(modelItem => item.SalarioBruto)
+        </td>        
+        <td>
+            @String.Format("{0:0.00}", item.SalarioLiquido)
+        </td>
+        <td>
+            @Html.ActionLink("Alterar", "Edit", new { id = item.FuncionarioId }, new { @class = "btn btn-warning"}) |
+            @Html.ActionLink("Detalhes", "Details", new { id = item.FuncionarioId }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Excluir", "Delete", new { id = item.FuncionarioId }, new { @class = "btn btn-danger"})
+        </td>
+    </tr>
+}
+
+</table>

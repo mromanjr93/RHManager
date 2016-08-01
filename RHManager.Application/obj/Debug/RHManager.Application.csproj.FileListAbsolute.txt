@@ -1,0 +1,18 @@
+F:\ASP.NET SOURCES\RHManager\RHManager.Application\bin\Debug\RHManager.Application.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Application\bin\Debug\RHManager.Application.pdb
+F:\ASP.NET SOURCES\RHManager\RHManager.Application\obj\Debug\RHManager.Application.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Application\obj\Debug\RHManager.Application.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\bin\Debug\RHManager.Application.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\bin\Debug\RHManager.Application.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\obj\Debug\RHManager.Application.csprojResolveAssemblyReference.cache
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\obj\Debug\RHManager.Application.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\obj\Debug\RHManager.Application.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\bin\Debug\RHManager.Domain.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Application\bin\Debug\RHManager.Domain.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\bin\Debug\RHManager.Application.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\bin\Debug\RHManager.Application.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\bin\Debug\RHManager.Domain.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\bin\Debug\RHManager.Domain.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\obj\Debug\RHManager.Application.csprojResolveAssemblyReference.cache
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\obj\Debug\RHManager.Application.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Application\obj\Debug\RHManager.Application.pdb

@@ -1,0 +1,119 @@
+﻿@model RHManager.MVC.ViewModels.FuncionarioViewModel
+
+@{
+    ViewBag.Title = "Alterar funcionário";
+}
+
+<h2>Alterar funcionário</h2>
+
+     <!-- Row start -->
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">
+                    <i class="icon-calendar"></i>
+                    <h3 class="panel-title">Preencha as informações do funcionário</h3>
+                </div>
+                @using (Html.BeginForm())
+                {
+                    <div class="panel-body">
+                   
+                        <div class="row">
+                       
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true)
+                                @Html.HiddenFor(model => model.FuncionarioId)
+
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label"})
+                                    @Html.TextBoxFor(model => model.Nome, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Nome)                                    
+                                </div>
+
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.Sobrenome, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.Sobrenome, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sobrenome)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Email)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.DataNascimento, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.DataNascimento, new { @class = "form-control datepicker", data_mask = "99/99/9999" })
+                                    @Html.ValidationMessageFor(model => model.DataNascimento)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.CPF, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.CPF, new { @class = "form-control", data_mask = "999.999.999-99" })
+                                    @Html.ValidationMessageFor(model => model.CPF)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.RG, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.RG, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.RG)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.SalarioBruto, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.SalarioBruto, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.SalarioBruto)
+                                </div>
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    @Html.LabelFor(model => model.DataAdmissao, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextBoxFor(model => model.DataAdmissao, new { @class = "form-control datepicker", data_mask = "99/99/9999" })
+                                    @Html.ValidationMessageFor(model => model.DataAdmissao)
+                                </div>
+
+                                <div class="col-lg-4 col-sm-4 form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            @Html.CheckBoxFor(model => model.Ativo)
+                                            @Html.DisplayNameFor(model => model.Ativo)
+                                        </label>
+                                    </div>
+                                </div>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        
+                            <div class="pull-right">
+                                <input type="submit" value="Salvar" class="btn btn-success" />
+                            </div>
+                        <div class="clearfix"></div>    
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+<!-- Row end -->
+
+
+
+<div>
+    @Html.ActionLink("Voltar para lista", "Index",null, new {@class = "btn btn-primary"})
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/jasny-bootstrap.min.js")
+
+    @Scripts.Render("~/Scripts/bootstrap-datepicker.min.js") 
+    @Scripts.Render("~/Scripts/locales/bootstrap-datepicker.pt-BR.min.js")
+
+
+    <script>
+        $(function () {
+            $(".datepicker").datepicker({ orientation: "bottom", language : "pt-BR", format : "dd/mm/yyyy"});
+        });
+    </script>
+}
+
+@section css {
+    <link href="@Url.Content("~/Content/jasny-bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/bootstrap-datepicker.min.css")" rel="stylesheet" type="text/css" />
+    
+}   

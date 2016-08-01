@@ -1,0 +1,36 @@
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll.config
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.pdb
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.pdb
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.xml
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.csprojResolveAssemblyReference.cache
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.dll
+F:\ASP.NET SOURCES\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll.config
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.pdb
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.dll
+C:\Users\Roman\Desktop\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll.config
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Infrastructure.Data.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\RHManager.Domain.pdb
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.dll
+C:\Users\Roman\Desktop\BackupRHManager\RHManager\RHManager.Infrastructure.Data\obj\Debug\RHManager.Infrastructure.Data.pdb
